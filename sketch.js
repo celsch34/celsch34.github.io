@@ -25,24 +25,6 @@ function draw() {
     text(min, 10, 60);
     fill(0);
     text(sec, 10, 90);
-    
-  //little white circles test!
-  
-  if (sec >= 1) {
-    fill(255);
-    circle(40, 90, 15);
-}
-
-    if (sec >= 2) {
-    fill(255);
-    circle(50, 90, 15);
-}
-  
-    if (sec >= 3) {
-    fill(255);
-    circle(60, 90, 15);
-}
-  
   
   // Move origin to center of canvas
   translate(width / 1.2, height / 5);
@@ -51,7 +33,6 @@ function draw() {
   fill('#FDA100');
   noStroke();
   circle(0,0,150);
-  
   
   //trying ifs for yellow lines
     if (sec >= 1) {
@@ -590,7 +571,7 @@ if (sec >= 59) {
       line(0, 0, 0, -secondsRadius);
       pop();
 }
-if (sec >= 60) {
+if (sec == 60) {
       let secondAngle = map(60, 0, 60, 0, 360);
       push();
       rotate(secondAngle);
