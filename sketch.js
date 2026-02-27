@@ -1,4 +1,30 @@
 let secondsRadius;
+let grass1;
+let grass2;
+let grass3;
+let grass4;
+let grass5;
+let pinkflower;
+let yellowflower;
+let shore;
+let turtle1;
+let turtle2;
+let turtle3;
+
+// Load the image and create a p5.Image object.
+function preload() {
+  grass1 = loadImage('https://celsch34.github.io/grass_1.png');
+  grass2 = loadImage('https://celsch34.github.io/grass_2.png');
+  grass3 = loadImage('https://celsch34.github.io/grass_3.png');
+  grass4 = loadImage('https://celsch34.github.io/grass_4.png');
+  grass5 = loadImage('https://celsch34.github.io/grass_5.png');
+  pinkflower = loadImage('https://celsch34.github.io/pinkflower.png');
+  yellowflower = loadImage('https://celsch34.github.io/yellowflower.png');
+  shore = loadImage('https://celsch34.github.io/shore.png');
+  turtle1 = loadImage('https://celsch34.github.io/turtle1.png');
+  turtle2 = loadImage('https://celsch34.github.io/turtle2.png');
+  turtle3 = loadImage('https://celsch34.github.io/turtle3.png');
+}
 
 // setup() is called once at page-load
 function setup() {
@@ -18,14 +44,19 @@ function draw() {
     let sec = second();
 
     background('#AAEAFF');
+    image(shore,0, 535);
+    shore.resize(800, 70);
+  
+/*  //see clock in numbers:
     textSize(12);
     fill(180);
     text(hr, 10, 30);
     fill(100);
     text(min, 10, 60);
     fill(0);
-    text(sec, 10, 90);
-  
+    text(sec, 10, 90); */
+    
+ 
   // Move origin to center of canvas
   translate(width / 1.2, height / 5);
   
@@ -34,7 +65,9 @@ function draw() {
   noStroke();
   circle(0,0,150);
   
-  //trying ifs for yellow lines
+  
+  //SUN RAYS/SECONDS MOTION------------------------------------------------------
+  
     if (sec >= 1) {
       //calculate angle for seconds hand:
       let secondAngle = map(1, 0, 60, 0, 360);
@@ -571,8 +604,8 @@ if (sec >= 59) {
       line(0, 0, 0, -secondsRadius);
       pop();
 }
-if (sec == 60) {
-      let secondAngle = map(60, 0, 60, 0, 360);
+if (sec >= 0) {
+      let secondAngle = map(0, 0, 60, 0, 360);
       push();
       rotate(secondAngle);
       strokeWeight(8);
@@ -582,6 +615,308 @@ if (sec == 60) {
 }
    
   
+  //FLOWERS/MINUTES MOTION------------------------------------------------------
 
+  //Draw all yellow flowers: minutes 1-30
+  
+  if (min >= 1) {
+    image(yellowflower, -480, 345);
+  }
+
+  if (min >= 2) {
+    image(yellowflower, -460, 345);
+  }
+
+  if (min >= 3) {
+    image(yellowflower, -439, 345);
+  }
+
+  if (min >= 4) {
+    image(yellowflower, -419, 345);
+  }
+
+  if (min >= 5) {
+    image(yellowflower, -399, 345);
+  }
+
+  if (min >= 6) {
+    image(yellowflower, -378, 345);
+  }
+
+  if (min >= 7) {
+    image(yellowflower, -358, 345);
+  }
+
+  if (min >= 8) {
+    image(yellowflower, -337, 345);
+  }
+
+  if (min >= 9) {
+    image(yellowflower, -317, 345);
+  }
+
+  if (min >= 10) {
+    image(yellowflower, -297, 345);
+  }
+
+  if (min >= 11) {
+    image(yellowflower, -276, 345);
+  }
+
+  if (min >= 12) {
+    image(yellowflower, -256, 345);
+  }
+
+  if (min >= 13) {
+    image(yellowflower, -236, 345);
+  }
+
+  if (min >= 14) {
+    image(yellowflower, -215, 345);
+  }
+
+  if (min >= 15) {
+    image(yellowflower, -195, 345);
+  }
+
+  if (min >= 16) {
+    image(yellowflower, -174, 345);
+  }
+
+  if (min >= 17) {
+    image(yellowflower, -154, 345);
+  }
+
+  if (min >= 18) {
+    image(yellowflower, -134, 345);
+  }
+
+  if (min >= 19) {
+    image(yellowflower, -113, 345);
+  }
+
+  if (min >= 20) {
+    image(yellowflower, -93, 345);
+  }
+
+  if (min >= 21) {
+    image(yellowflower, -73, 345);
+  }
+
+  if (min >= 22) {
+    image(yellowflower, -52, 345);
+  }
+
+  if (min >= 23) {
+    image(yellowflower, -32, 345);
+  }
+
+  if (min >= 24) {
+    image(yellowflower, -11, 345);
+  }
+
+  if (min >= 25) {
+    image(yellowflower, 9, 345);
+  }
+
+  if (min >= 26) {
+    image(yellowflower, 29, 345);
+  }
+
+  if (min >= 27) {
+    image(yellowflower, 50, 345);
+  }
+
+  if (min >= 28) {
+    image(yellowflower, 70, 345);
+  }
+
+  if (min >= 29) {
+    image(yellowflower, 90, 345);
+  }
+
+  if (min >= 30) {
+    image(yellowflower, 110, 345);
+  }
+  
+  //Draw all pink flowers: minutes 31-59
+  if (min >= 31) {
+  image(pinkflower, -470, 330);
+  }
+
+  if (min >= 32) {
+    image(pinkflower, -450, 330);
+  }
+
+  if (min >= 33) {
+    image(pinkflower, -431, 330);
+  }
+
+  if (min >= 34) {
+    image(pinkflower, -411, 330);
+  }
+
+  if (min >= 35) {
+    image(pinkflower, -391, 330);
+  }
+
+  if (min >= 36) {
+    image(pinkflower, -372, 330);
+  }
+
+  if (min >= 37) {
+    image(pinkflower, -352, 330);
+  }
+
+  if (min >= 38) {
+    image(pinkflower, -332, 330);
+  }
+
+  if (min >= 39) {
+    image(pinkflower, -313, 330);
+  }
+
+  if (min >= 40) {
+    image(pinkflower, -293, 330);
+  }
+
+  if (min >= 41) {
+    image(pinkflower, -273, 330);
+  }
+
+  if (min >= 42) {
+    image(pinkflower, -254, 330);
+  }
+
+  if (min >= 43) {
+    image(pinkflower, -234, 330);
+  }
+
+  if (min >= 44) {
+    image(pinkflower, -214, 330);
+  }
+
+  if (min >= 45) {
+    image(pinkflower, -195, 330);
+  }
+
+  if (min >= 46) {
+    image(pinkflower, -175, 330);
+  }
+
+  if (min >= 47) {
+    image(pinkflower, -155, 330);
+  }
+
+  if (min >= 48) {
+    image(pinkflower, -136, 330);
+  }
+
+  if (min >= 49) {
+    image(pinkflower, -116, 330);
+  }
+
+  if (min >= 50) {
+    image(pinkflower, -96, 330);
+  }
+
+  if (min >= 51) {
+    image(pinkflower, -77, 330);
+  }
+
+  if (min >= 52) {
+    image(pinkflower, -57, 330);
+  }
+
+  if (min >= 53) {
+    image(pinkflower, -37, 330);
+  }
+
+  if (min >= 54) {
+    image(pinkflower, -18, 330);
+  }
+
+  if (min >= 55) {
+    image(pinkflower, 2, 330);
+  }
+
+  if (min >= 56) {
+    image(pinkflower, 22, 330);
+  }
+
+  if (min >= 57) {
+    image(pinkflower, 41, 330);
+  }
+
+  if (min >= 58) {
+    image(pinkflower, 61, 330);
+  }
+
+  if (min >= 59) {
+    image(pinkflower, 80, 330);
+  }
+
+  
+  //TURTLES/HOURS MOTION------------------------------------------------------
+  
+  if (hr >= 1) {
+  image(turtle1, -640, 415);
+    turtle1.resize(120, 54)
+  }
+
+  if (hr >= 2) {
+    image(turtle2, -640, 370);
+    turtle2.resize(120, 54)
+  }
+
+  if (hr >= 3) {
+    image(turtle3, -640, 325);
+    turtle3.resize(120, 54)
+  }
+
+  if (hr >= 4) {
+    image(turtle1, -640, 280);
+    turtle1.resize(120, 54)
+  }
+
+  if (hr >= 5) {
+    image(turtle2, -640, 235);
+    turtle2.resize(120, 54)
+  }
+
+  if (hr >= 6) {
+    image(turtle3, -640, 190);
+    turtle3.resize(120, 54)
+  }
+
+  if (hr >= 7) {
+    image(turtle1, -640, 145);
+    turtle1.resize(120, 54)
+  }
+
+  if (hr >= 8) {
+    image(turtle2, -640, 100);
+    turtle2.resize(120, 54)
+  }
+
+  if (hr >= 9) {
+    image(turtle3, -640, 55);
+    turtle3.resize(120, 54)
+  }
+
+  if (hr >= 10) {
+    image(turtle1, -640, 10);
+    turtle1.resize(120, 54)
+  }
+
+  if (hr >= 11) {
+    image(turtle2, -640, -35);
+    turtle2.resize(120, 54)
+  }
+
+  if (hr >= 12) {
+    image(turtle3, -640, -80);
+    turtle3.resize(120, 54)
+  }
   
 }
