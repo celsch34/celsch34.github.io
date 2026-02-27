@@ -858,62 +858,62 @@ if (min >= 59) {
   
   //TURTLES/HOURS MOTION------------------------------------------------------
   
-  if (hr >= 1) {
+    if (hr >= 1 || hr >= 13) {
   image(turtle1, -640, 415);
     turtle1.resize(120, 54)
   }
 
-  if (hr >= 2) {
+  if ((hr >= 2 && hr < 13) || hr >= 14) {
     image(turtle2, -640, 370);
     turtle2.resize(120, 54)
   }
 
-  if (hr >= 3) {
+  if ((hr >= 3 && hr < 13) || hr >= 15) {
     image(turtle3, -640, 325);
     turtle3.resize(120, 54)
   }
 
-  if (hr >= 4) {
+  if ((hr >= 4 && hr < 13) || hr >= 16) {
     image(turtle1, -640, 280);
     turtle1.resize(120, 54)
   }
 
-  if (hr >= 5) {
+  if ((hr >= 5 && hr < 13) || hr >= 17) {
     image(turtle2, -640, 235);
     turtle2.resize(120, 54)
   }
 
-  if (hr >= 6) {
+  if ((hr >= 6 && hr < 13) || hr >= 18) {
     image(turtle3, -640, 190);
     turtle3.resize(120, 54)
   }
 
-  if (hr >= 7) {
+  if ((hr >= 7 && hr < 13) || hr >= 19) {
     image(turtle1, -640, 145);
     turtle1.resize(120, 54)
   }
 
-  if (hr >= 8) {
+  if ((hr >= 8 && hr < 13) || hr >= 20) {
     image(turtle2, -640, 100);
     turtle2.resize(120, 54)
   }
 
-  if (hr >= 9) {
+  if ((hr >= 9 && hr < 13) || hr >= 21) {
     image(turtle3, -640, 55);
     turtle3.resize(120, 54)
   }
 
-  if (hr >= 10) {
+  if ((hr >= 10 && hr < 13) || hr >= 22) {
     image(turtle1, -640, 10);
     turtle1.resize(120, 54)
   }
 
-  if (hr >= 11) {
+  if ((hr >= 11 && hr < 13) || hr >= 23) {
     image(turtle2, -640, -35);
     turtle2.resize(120, 54)
   }
 
-  if (hr >= 12) {
+  if ((hr >= 12 && hr < 13) || hr >= 24) {
     image(turtle3, -640, -80);
     turtle3.resize(120, 54)
   }
