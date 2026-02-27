@@ -741,121 +741,120 @@ if (sec >= 0) {
   
   //Draw all pink flowers: minutes 31-59
   if (min >= 31) {
+  image(pinkflower, -490, 330);
+}
+
+if (min >= 32) {
   image(pinkflower, -470, 330);
-  }
+}
 
-  if (min >= 32) {
-    image(pinkflower, -450, 330);
-  }
+if (min >= 33) {
+  image(pinkflower, -449, 330);
+}
 
-  if (min >= 33) {
-    image(pinkflower, -431, 330);
-  }
+if (min >= 34) {
+  image(pinkflower, -429, 330);
+}
 
-  if (min >= 34) {
-    image(pinkflower, -411, 330);
-  }
+if (min >= 35) {
+  image(pinkflower, -409, 330);
+}
 
-  if (min >= 35) {
-    image(pinkflower, -391, 330);
-  }
+if (min >= 36) {
+  image(pinkflower, -388, 330);
+}
 
-  if (min >= 36) {
-    image(pinkflower, -372, 330);
-  }
+if (min >= 37) {
+  image(pinkflower, -368, 330);
+}
 
-  if (min >= 37) {
-    image(pinkflower, -352, 330);
-  }
+if (min >= 38) {
+  image(pinkflower, -347, 330);
+}
 
-  if (min >= 38) {
-    image(pinkflower, -332, 330);
-  }
+if (min >= 39) {
+  image(pinkflower, -327, 330);
+}
 
-  if (min >= 39) {
-    image(pinkflower, -313, 330);
-  }
+if (min >= 40) {
+  image(pinkflower, -307, 330);
+}
 
-  if (min >= 40) {
-    image(pinkflower, -293, 330);
-  }
+if (min >= 41) {
+  image(pinkflower, -286, 330);
+}
 
-  if (min >= 41) {
-    image(pinkflower, -273, 330);
-  }
+if (min >= 42) {
+  image(pinkflower, -266, 330);
+}
 
-  if (min >= 42) {
-    image(pinkflower, -254, 330);
-  }
+if (min >= 43) {
+  image(pinkflower, -246, 330);
+}
 
-  if (min >= 43) {
-    image(pinkflower, -234, 330);
-  }
+if (min >= 44) {
+  image(pinkflower, -225, 330);
+}
 
-  if (min >= 44) {
-    image(pinkflower, -214, 330);
-  }
+if (min >= 45) {
+  image(pinkflower, -205, 330);
+}
 
-  if (min >= 45) {
-    image(pinkflower, -195, 330);
-  }
+if (min >= 46) {
+  image(pinkflower, -184, 330);
+}
 
-  if (min >= 46) {
-    image(pinkflower, -175, 330);
-  }
+if (min >= 47) {
+  image(pinkflower, -164, 330);
+}
 
-  if (min >= 47) {
-    image(pinkflower, -155, 330);
-  }
+if (min >= 48) {
+  image(pinkflower, -144, 330);
+}
 
-  if (min >= 48) {
-    image(pinkflower, -136, 330);
-  }
+if (min >= 49) {
+  image(pinkflower, -123, 330);
+}
 
-  if (min >= 49) {
-    image(pinkflower, -116, 330);
-  }
+if (min >= 50) {
+  image(pinkflower, -103, 330);
+}
 
-  if (min >= 50) {
-    image(pinkflower, -96, 330);
-  }
+if (min >= 51) {
+  image(pinkflower, -83, 330);
+}
 
-  if (min >= 51) {
-    image(pinkflower, -77, 330);
-  }
+if (min >= 52) {
+  image(pinkflower, -62, 330);
+}
 
-  if (min >= 52) {
-    image(pinkflower, -57, 330);
-  }
+if (min >= 53) {
+  image(pinkflower, -42, 330);
+}
 
-  if (min >= 53) {
-    image(pinkflower, -37, 330);
-  }
+if (min >= 54) {
+  image(pinkflower, -21, 330);
+}
 
-  if (min >= 54) {
-    image(pinkflower, -18, 330);
-  }
+if (min >= 55) {
+  image(pinkflower, -1, 330);
+}
 
-  if (min >= 55) {
-    image(pinkflower, 2, 330);
-  }
+if (min >= 56) {
+  image(pinkflower, 19, 330);
+}
 
-  if (min >= 56) {
-    image(pinkflower, 22, 330);
-  }
+if (min >= 57) {
+  image(pinkflower, 40, 330);
+}
 
-  if (min >= 57) {
-    image(pinkflower, 41, 330);
-  }
+if (min >= 58) {
+  image(pinkflower, 60, 330);
+}
 
-  if (min >= 58) {
-    image(pinkflower, 61, 330);
-  }
-
-  if (min >= 59) {
-    image(pinkflower, 80, 330);
-  }
-
+if (min >= 59) {
+  image(pinkflower, 100, 330);
+}
   
   //TURTLES/HOURS MOTION------------------------------------------------------
   
