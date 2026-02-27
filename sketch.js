@@ -740,116 +740,116 @@ if (sec >= 0) {
   }
   
   //Draw all pink flowers: minutes 31-59
-  if (min >= 31) {
-  image(pinkflower, -490, 330);
-}
-
-if (min >= 32) {
+ if (min >= 31) {
   image(pinkflower, -470, 330);
 }
 
-if (min >= 33) {
-  image(pinkflower, -449, 330);
+if (min >= 32) {
+  image(pinkflower, -450, 330);
 }
 
-if (min >= 34) {
+if (min >= 33) {
   image(pinkflower, -429, 330);
 }
 
-if (min >= 35) {
+if (min >= 34) {
   image(pinkflower, -409, 330);
 }
 
-if (min >= 36) {
-  image(pinkflower, -388, 330);
+if (min >= 35) {
+  image(pinkflower, -389, 330);
 }
 
-if (min >= 37) {
+if (min >= 36) {
   image(pinkflower, -368, 330);
 }
 
+if (min >= 37) {
+  image(pinkflower, -348, 330);
+}
+
 if (min >= 38) {
-  image(pinkflower, -347, 330);
+  image(pinkflower, -328, 330);
 }
 
 if (min >= 39) {
-  image(pinkflower, -327, 330);
-}
-
-if (min >= 40) {
   image(pinkflower, -307, 330);
 }
 
-if (min >= 41) {
-  image(pinkflower, -286, 330);
+if (min >= 40) {
+  image(pinkflower, -287, 330);
 }
 
-if (min >= 42) {
+if (min >= 41) {
   image(pinkflower, -266, 330);
 }
 
-if (min >= 43) {
+if (min >= 42) {
   image(pinkflower, -246, 330);
 }
 
-if (min >= 44) {
-  image(pinkflower, -225, 330);
+if (min >= 43) {
+  image(pinkflower, -226, 330);
 }
 
-if (min >= 45) {
+if (min >= 44) {
   image(pinkflower, -205, 330);
 }
 
-if (min >= 46) {
-  image(pinkflower, -184, 330);
+if (min >= 45) {
+  image(pinkflower, -185, 330);
 }
 
-if (min >= 47) {
+if (min >= 46) {
   image(pinkflower, -164, 330);
 }
 
-if (min >= 48) {
+if (min >= 47) {
   image(pinkflower, -144, 330);
 }
 
-if (min >= 49) {
-  image(pinkflower, -123, 330);
+if (min >= 48) {
+  image(pinkflower, -124, 330);
 }
 
-if (min >= 50) {
+if (min >= 49) {
   image(pinkflower, -103, 330);
 }
 
-if (min >= 51) {
+if (min >= 50) {
   image(pinkflower, -83, 330);
 }
 
-if (min >= 52) {
+if (min >= 51) {
   image(pinkflower, -62, 330);
 }
 
-if (min >= 53) {
+if (min >= 52) {
   image(pinkflower, -42, 330);
 }
 
-if (min >= 54) {
+if (min >= 53) {
   image(pinkflower, -21, 330);
 }
 
-if (min >= 55) {
+if (min >= 54) {
   image(pinkflower, -1, 330);
 }
 
-if (min >= 56) {
+if (min >= 55) {
   image(pinkflower, 19, 330);
 }
 
-if (min >= 57) {
+if (min >= 56) {
   image(pinkflower, 40, 330);
 }
 
-if (min >= 58) {
+if (min >= 57) {
   image(pinkflower, 60, 330);
+}
+
+if (min >= 58) {
+  image(pinkflower, 80, 330);
 }
 
 if (min >= 59) {
